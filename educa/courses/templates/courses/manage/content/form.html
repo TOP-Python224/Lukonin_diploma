@@ -2,18 +2,18 @@
 
 {% block title %}
   {% if object %}
-    Edit content "{{ object.title }}"
+    Изменить контент "{{ object.title }}"
   {% else %}
-    Add new content
+    Добавить новый контен
   {% endif %}
 {% endblock %}
 
 {% block content %}
   <h1>
     {% if object %}
-      Edit content "{{ object.title }}"
+      Изменить контент "{{ object.title }}"
     {% else %}
-      Add new content
+      Добавить новый контент
     {% endif %}
   </h1>
   <div class="module">

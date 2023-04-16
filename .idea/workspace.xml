@@ -4,51 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="реализация регистрации учеников, добавление rest api">
-      <change afterPath="$PROJECT_DIR$/educa/courses/templates/courses/content/audio.html" afterDir="false" />
+    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="реализация регистрации учеников">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/fixtures/subjects.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/migrations/0002_video_text_image_file_content.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/migrations/0003_alter_content_options_alter_module_options_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/migrations/0003_alter_content_options_content_order_module_order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/static/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/EmailRegs/logged_out.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/EmailRegs/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/content/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/course/delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/course/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/course/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/module/content_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templates/courses/manage/module/formset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templatetags/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/templatetags/course.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/courses/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/lms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/lms/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/lms/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/lms/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/lms/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/media/images/china.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/content/audio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/educa/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680447431421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="реализация регистрации учеников">
+      <created>1681654743221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681654743221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание модели курсов" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание модели курсов" />
+    <MESSAGE value="реализация регистрации учеников" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализация регистрации учеников" />
   </component>
 </project>

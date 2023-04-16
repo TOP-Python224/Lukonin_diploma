@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
 {% block title %}
-  Sign up
+  Регистрация
 {% endblock %}
 
 {% block content %}
   <h1>
-    Sign up
+    Регистрация
   </h1>
   <div class="module">
-    <p>Enter your details to create an account:</p>
+    <p>Введите свои данные, чтобы создать учетную запись:</p>
     <form method="post">
       {{ form.as_p }}
       {% csrf_token %}
