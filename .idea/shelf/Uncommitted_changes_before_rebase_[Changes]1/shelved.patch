@@ -1,0 +1,34 @@
+Index: lms/courses/templates/registration/logged_out.html
+===================================================================
+diff --git a/lms/courses/templates/registration/logged_out.html b/lms/courses/templates/registration/logged_out.html
+--- a/lms/courses/templates/registration/logged_out.html	
++++ b/lms/courses/templates/registration/logged_out.html	
+@@ -7,7 +7,7 @@
+   <div class="module">
+     <p>
+       You have been successfully logged out.
+-      You can <a href="{% url "login" %}">log-in again</a>.
++      You can <a href="{% url 'login' %}">log-in again</a>.
+      </p>
+   </div>
+ {% endblock %}
+Index: lms/courses/urls.py
+===================================================================
+diff --git a/lms/courses/urls.py b/lms/courses/urls.py
+--- a/lms/courses/urls.py	
++++ b/lms/courses/urls.py	
+@@ -35,6 +35,7 @@
+     path('content/order/',
+          views.ContentOrderView.as_view(),
+          name='content_order'),
++<<<<<<< HEAD
+ 
+     path('subject/<slug:subject>/',
+          views.CourseListView.as_view(),
+@@ -42,4 +43,6 @@
+     path('<slug:slug>/',
+          views.CourseDetailView.as_view(),
+          name='course_detail'),
++=======
++>>>>>>> ccfc68420600964c2cb1903b9bfb114158a6160a
+ ]
