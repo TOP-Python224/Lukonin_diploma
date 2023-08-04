@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="реализация регистрации учеников">
+    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="рефакторинг">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2023_19_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2023_19_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/courses/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/content/audio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/content/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/content/file.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/educa/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/course/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/educa/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/79535/Documents/GitHub/Lukonin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/79535/Desktop/Lukonin_diploma"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\79535\Desktop\Lukonin_diploma\lms\courses\templates" />
@@ -86,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681654743221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="рефакторинг">
+      <created>1681657277357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681657277357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание модели курсов" />
     <MESSAGE value="реализация регистрации учеников" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализация регистрации учеников" />
+    <MESSAGE value="рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг" />
   </component>
 </project>
