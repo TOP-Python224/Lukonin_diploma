@@ -29,6 +29,7 @@ urlpatterns = [
     path('course/', include('courses.urls')),
     path('', CourseListView.as_view(), name='course_list'),
     path('students/', include('students.urls')),
+    path('accounts/profile/', CourseListView.as_view, name='course_list')
 ]
 
 if settings.DEBUG:

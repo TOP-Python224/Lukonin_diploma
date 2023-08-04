@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="рефакторинг">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2023_19_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2023_19_48__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" />
+    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="04/08/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/courses/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/content/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/content/file.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/educa/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/educa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/educa/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681657277357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="04/08/23">
+      <created>1691138485202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691138485202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +111,7 @@
     <MESSAGE value="создание модели курсов" />
     <MESSAGE value="реализация регистрации учеников" />
     <MESSAGE value="рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг" />
+    <MESSAGE value="04/08/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/08/23" />
   </component>
 </project>
