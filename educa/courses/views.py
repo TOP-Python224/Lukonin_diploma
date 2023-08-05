@@ -23,18 +23,21 @@ class ManageCourseListView(ListView):
     template_name = 'courses/manage/course/list.html'
 
     def get_queryset(self):
+        """Извлечение только курсов созданных пользователем"""
         qs = super().get_queryset()
         return qs.filter(owner=self.request.user)
 
 
 class OwnerMixin:
     def get_queryset(self):
+        """Фильтрация объектов по собственникам"""
         qs = super().get_queryset()
         return qs.filter(owner=self.request.user)
 
 
 class OwnerEditMixin:
     def form_valid(self, form):
+        """Проверка формы на валидность"""
         form.instance.owner = self.request.user
         return super().form_valid(form)
 
@@ -74,10 +77,12 @@ class CourseModuleUpdateView(TemplateResponseMixin, View):
     course = None
 
     def get_formset(self, data=None):
+        """Исключение повторений компоновки форм"""
         return ModuleFormSet(instance=self.course,
                              data=data)
 
     def dispatch(self, request, pk):
+        """Поиск совпадений HTTP запросов"""
         self.course = get_object_or_404(Course,
                                         id=pk,
                                         owner=request.user)
@@ -104,12 +109,14 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
     template_name = 'courses/manage/content/form.html'
 
     def get_model(self, model_name):
+        """Проверка на формат файла"""
         if model_name in ['text', 'video', 'image', 'file']:
             return apps.get_model(app_label='courses',
                                   model_name=model_name)
         return None
 
     def get_form(self, model, *args, **kwargs):
+        """Создание динамической формы для определенного файла"""
         Form = modelform_factory(model, exclude=['owner',
                                                  'order',
                                                  'created',
@@ -117,6 +124,7 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
         return Form(*args, **kwargs)
 
     def dispatch(self, request, module_id, model_name, id=None):
+        """Сохранение соответсвующий модуль в качестве атрибута"""
         self.module = get_object_or_404(Module,
                                         id=module_id,
                                         course__owner=request.user)

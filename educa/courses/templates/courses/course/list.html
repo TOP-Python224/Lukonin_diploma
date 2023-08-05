@@ -11,7 +11,7 @@
 {% block content %}
   <h1>
     {% if subject %}
-      {{ subject.title }} courses
+      {{ subject.title }}
     {% else %}
       Все курсы
     {% endif %}
@@ -27,7 +27,7 @@
           <a href="{% url "course_list_subject" s.slug %}">
             {{ s.title }}
             <br>
-            <span>{{ s.total_courses }} course{{ s.total_courses|pluralize }}</span>
+            <span>{{ s.total_courses }} курс{{ s.total_courses|pluralize:'ов' }}</span>
           </a>
         </li>
       {% endfor %}
