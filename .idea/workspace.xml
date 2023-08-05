@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="04/08/23">
+    <list default="true" id="459c4d5a-93ab-44ba-961a-37475d8ed97f" name="Changes" comment="05/08/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/fields.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/content/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/course/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/content_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/manage/module/formset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/educa/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/student/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +95,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691170064951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="05/08/23">
+      <created>1691216468175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691216468175</updated>
+    </task>
+    <task id="LOCAL-00007" summary="05/08/23">
+      <created>1691216673393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691216673393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="05/08/23">
+      <created>1691216966927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691216966927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +135,7 @@
     <MESSAGE value="реализация регистрации учеников" />
     <MESSAGE value="рефакторинг" />
     <MESSAGE value="04/08/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="04/08/23" />
+    <MESSAGE value="05/08/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="05/08/23" />
   </component>
 </project>

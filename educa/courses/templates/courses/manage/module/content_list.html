@@ -88,14 +88,14 @@
     modulesOrder = {};
     var modules = document.querySelectorAll('#modules li');
     modules.forEach(function (module, index) {
-      // обновить индекс модуля
+      // update module index
       modulesOrder[module.dataset.id] = index;
-      // обновить индекс в HTML-элементе
+      // update index in HTML element
       module.querySelector('.order').innerHTML = index + 1;
-      // добавить новый порядок в опции HTTP-запроса
+      // add new order to the HTTP request options
       options['body'] = JSON.stringify(modulesOrder);
 
-      // отправить HTTP-запрос
+      // send HTTP request
       fetch(moduleOrderUrl, options)
     });
   });
@@ -107,16 +107,17 @@
     placeholderClass: 'placeholder'
   })[0].addEventListener('sortupdate', function(e) {
 
- contentOrder = {};
- var contents = document.querySelectorAll('#module-contents div');
- contents.forEach(function (content, index) {
- // обновить индекс контента
- contentOrder[content.dataset.id] = index;
- // добавить новый порядок в опции HTTP-запроса
- options['body'] = JSON.stringify(contentOrder);
- // отправить HTTP-запрос
- fetch(contentOrderUrl, options)
- });
- });
+    contentOrder = {};
+    var contents = document.querySelectorAll('#module-contents div');
+    contents.forEach(function (content, index) {
+      // update content index
+      contentOrder[content.dataset.id] = index;
+      // add new order to the HTTP request options
+      options['body'] = JSON.stringify(contentOrder);
+
+      // send HTTP request
+      fetch(contentOrderUrl, options)
+    });
+  });
 
 {% endblock %}
